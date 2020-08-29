@@ -15,7 +15,7 @@ public class Lava : screen
     {
         Move();
 
-        if (transform.position.x <= -10)
+        if (transform.position.x <= -20)
         {
             Remove();
         }

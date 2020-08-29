@@ -14,7 +14,7 @@ public class Platform : screen
     void Update()
     {
         Move();
-        if (transform.position.x <= -10)
+        if (transform.position.x <= -20)
         {
             Remove();
         }

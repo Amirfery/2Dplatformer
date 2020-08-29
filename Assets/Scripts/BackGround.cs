@@ -12,7 +12,7 @@ public class BackGround : screen
     {
         Move();
 
-        if (transform.position.x <= -10)
+        if (transform.position.x <= -20)
         {
             Remove();
         }
