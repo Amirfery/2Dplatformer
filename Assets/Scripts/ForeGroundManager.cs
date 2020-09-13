@@ -5,7 +5,7 @@ using UnityEngine;
 public class ForeGroundManager : MonoBehaviour
 {
     public GameObject Lava;
-    public float countdown5 = 0f;
+    public float countdown5 = 0.1f;
 
     void Start()
     {
@@ -23,7 +23,7 @@ public class ForeGroundManager : MonoBehaviour
     }
     void Spawn()
     {
-        Vector3 pos = new Vector3(15.85f, 0f, 0);
+        Vector3 pos = new Vector3(15.85f, -4.5f, 0);
         GameObject goodsPrefab = Lava;
         Instantiate(goodsPrefab, pos, goodsPrefab.transform.rotation);
     }

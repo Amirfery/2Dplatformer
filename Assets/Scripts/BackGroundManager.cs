@@ -38,12 +38,12 @@ public class BackGroundManager : MonoBehaviour
         if (countdown3 <= 0)
         {
             Spawn(2);
-            countdown3 = 53.34f;
+            countdown3 = 53.1f;
         }
     }
     public void Spawn(int i)
     {
-        Vector3 pos = new Vector3(16, Screens[i].transform.position.y, 0);
+        Vector3 pos = new Vector3(16, Screens[i].transform.position.y - 0.61f, 0);
         GameObject goodsPrefab = Screens[i];
         Instantiate(goodsPrefab, pos, goodsPrefab.transform.rotation);
     }
