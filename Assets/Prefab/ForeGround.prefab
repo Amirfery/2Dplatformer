@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3490519638308490599}
   - component: {fileID: 3490519638308490592}
+  - component: {fileID: 7798665817138111203}
   m_Layer: 8
   m_Name: sprite (2)_1
   m_TagString: Untagged
@@ -82,6 +83,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7798665817138111203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3490519638308490598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7f3d343a10c4a148915fc54071fe106, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offsetX: 0
+  hasARightBuddy: 0
+  hasALeftBuddy: 0
+  reverseScale: 1
 --- !u!1 &3490519640024271498
 GameObject:
   m_ObjectHideFlags: 0
@@ -91,7 +108,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3490519640024271492}
-  - component: {fileID: 3490519640024271499}
   m_Layer: 8
   m_Name: ForeGround
   m_TagString: Lava
@@ -114,16 +130,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3490519640024271499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3490519640024271498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2df027159fd44ca4ead859eda5ecfdc6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: {x: -1, y: 0, z: 0}

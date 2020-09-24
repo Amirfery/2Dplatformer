@@ -24,18 +24,18 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey("d"))
         {
-            rb.velocity = speed;
+            rb.AddForce(speed);
         }
         if (Input.GetKey("a"))
         {
-            rb.velocity = -speed;
+            rb.AddForce(-speed);
         }
     }
     void Jump()
     {
         if (Input.GetKey("space"))
         {
-            rb.velocity = height;
+            rb.AddForce(height);
         }
     }
     void Damage()

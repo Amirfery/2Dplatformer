@@ -23,7 +23,7 @@ public class ForeGroundManager : MonoBehaviour
     }
     void Spawn()
     {
-        Vector3 pos = new Vector3(15.85f, -4.5f, 0);
+        Vector3 pos = new Vector3(15.85f, -3.89f, 0);
         GameObject goodsPrefab = Lava;
         Instantiate(goodsPrefab, pos, goodsPrefab.transform.rotation);
     }

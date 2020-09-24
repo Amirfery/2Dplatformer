@@ -19,11 +19,15 @@ public class GroundManager : MonoBehaviour
 
     void Update()
     {
-        countdown4 -= Time.deltaTime;
+        //if (Input.GetKey("d"))
+        //{
+            countdown4 -= Time.deltaTime;
+        //}
+        
         if (countdown4 <= 0)
         {
             Spawn(Random.Range(0, 2));
-            countdown4 = 4f;
+            countdown4 = 2f;
         }
     }
     void Spawn(int i)

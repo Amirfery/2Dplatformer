@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5863669707120152171}
   - component: {fileID: 8267600322433170075}
   - component: {fileID: 2737556160384761040}
+  - component: {fileID: -3608544808308219368}
   m_Layer: 0
   m_Name: Platform2
   m_TagString: Platform
@@ -90,9 +91,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7223880287066946559}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58c5605f5826745408bfc289c6bb1f63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: -1, y: 0, z: 0}
+--- !u!70 &-3608544808308219368
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7223880287066946559}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.75, y: 0.24}
+  m_Direction: 1
